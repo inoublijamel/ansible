@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  roles:
+    - copy-files
+    - template-module
+    - infile-module
+    - lineinfile-module
+    - { role: yum-module }
+    - { role: replace-module }
+    - { role: debug-module }
+    - { role: git-module }
+    # - { role: patch-module }

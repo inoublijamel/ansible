@@ -1,0 +1,6 @@
+- name: Apply patch to one file
+  patch:
+    src: /tmp/index.html.patch
+    remote_src: yes
+    dest: /home/vagrant/index.html
+    state: absent

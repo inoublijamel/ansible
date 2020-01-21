@@ -1,0 +1,4 @@
+- name: Template the configuration file
+  git:
+    repo: 'https://github.com/radhouen/jenkins-demo.git'
+    dest: /home/vagrant/jenkins

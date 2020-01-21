@@ -1,0 +1,11 @@
+- name: install the latest version of Patch
+  yum:
+    name: patch
+    state: latest
+
+
+
+- name: install the latest version of git
+  yum:
+    name: git
+    state: latest

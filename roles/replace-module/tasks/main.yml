@@ -1,0 +1,5 @@
+- name: Replace user radhouen by kanzari
+  lineinfile:
+    path: /tmp/test.txt
+    regexp: '^user='
+    line: user=kanzari

@@ -1,0 +1,3 @@
+server= centos-1
+user= radhouen
+username= assakra

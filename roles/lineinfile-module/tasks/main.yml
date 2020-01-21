@@ -1,0 +1,5 @@
+- name: Replace centos-1 by centos-3
+  lineinfile:
+    path: /tmp/test.txt
+    regexp: '^server='
+    line: server=centos-3

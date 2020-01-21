@@ -1,0 +1,4 @@
+- name: Template the configuration file
+  template:
+    src: test.ini.j2
+    dest: /tmp/test.ini
